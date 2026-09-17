@@ -1,0 +1,38 @@
+{
+  "version": "include262_model_features64_v1",
+  "num_frames": 64,
+  "landmark_stream_dim": 534,
+  "geometry_stream_dim": 469,
+  "availability_mask_dim": 4,
+  "landmark_stream": {
+    "0:63": "left hand body-normalized standardized xyz",
+    "63:126": "right hand body-normalized standardized xyz",
+    "126:225": "pose body-normalized standardized xyz",
+    "225:258": "pose visibility",
+    "258:534": "selected face body-normalized standardized xyz"
+  },
+  "geometry_stream": {
+    "0:63": "left hand-centric xyz",
+    "63:126": "right hand-centric xyz",
+    "126:146": "left normalized bone lengths",
+    "146:166": "right normalized bone lengths",
+    "166:181": "left joint angles/pi",
+    "181:196": "right joint angles/pi",
+    "196:217": "hand-body/inter-hand relations",
+    "217:280": "left hand-centric velocity",
+    "280:343": "right hand-centric velocity",
+    "343:406": "left hand-centric acceleration",
+    "406:469": "right hand-centric acceleration"
+  },
+  "availability_mask": [
+    "left_hand_present",
+    "right_hand_present",
+    "pose_present",
+    "face_present"
+  ],
+  "normalization": {
+    "landmark": "body-centric + TRAIN-only mean/std",
+    "geometry": "hand/body scale-normalized + TRAIN-only per-dimension mean/std",
+    "validation_test_statistics_used": false
+  }
+}

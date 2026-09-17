@@ -1,0 +1,7 @@
+source,match_key,details
+official,goodnight|mvi0056,same class+stem occurs more than once in official split
+official,goodnight|mvi0057,same class+stem occurs more than once in official split
+official,thankyou|mvi0060,same class+stem occurs more than once in official split
+local,goodnight|mvi0056,MVI_0056.MOV | MVI_005_6.MOV
+local,goodnight|mvi0057,MVI_0057.MOV | MVI_0057_.MOV
+local,thankyou|mvi0060,MVI_0060.MOV | MVI_0060_.MOV

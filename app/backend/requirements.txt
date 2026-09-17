@@ -1,0 +1,7 @@
+# FastAPI serving layer for the INCLUDE262 backend.
+# The ML stack (torch, numpy, opencv-python, mediapipe, pandas) is already
+# installed in the project venv and is intentionally NOT pinned here.
+
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9

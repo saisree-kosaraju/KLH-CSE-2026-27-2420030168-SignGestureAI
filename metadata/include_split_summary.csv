@@ -1,0 +1,258 @@
+class_key,total_groups,train_groups,val_groups,test_groups
+adjectives|nice,4,2,1,1
+adjectives|thin,4,2,1,1
+adjectives|flat,8,6,1,1
+adjectives|alive,8,6,1,1
+adjectives|heavy,8,6,1,1
+adjectives|high,8,6,1,1
+adjectives|light,8,6,1,1
+adjectives|female,8,6,1,1
+adjectives|low,8,6,1,1
+adjectives|male,8,6,1,1
+adjectives|rich,8,6,1,1
+adjectives|sad,8,6,1,1
+adjectives|strong,8,6,1,1
+adjectives|soft,8,6,1,1
+adjectives|mean,8,6,1,1
+adjectives|hard,8,6,1,1
+adjectives|poor,8,6,1,1
+adjectives|shallow,8,6,1,1
+adjectives|thick,8,6,1,1
+adjectives|weak,8,6,1,1
+adjectives|tight,8,6,1,1
+adjectives|ugly,8,6,1,1
+adjectives|loose,8,6,1,1
+adjectives|deaf,8,6,1,1
+adjectives|clean,8,6,1,1
+adjectives|curved,8,6,1,1
+adjectives|deep,8,6,1,1
+adjectives|dirty,8,6,1,1
+adjectives|blind,8,6,1,1
+adjectives|cheap,8,6,1,1
+adjectives|famous,8,6,1,1
+adjectives|expensive,8,6,1,1
+adjectives|dead,8,6,1,1
+adjectives|beautiful,9,7,1,1
+electronics|clock,13,9,2,2
+jobs|author,14,10,2,2
+jobs|patient,14,10,2,2
+jobs|police,14,10,2,2
+jobs|artist,14,10,2,2
+jobs|soldier,14,10,2,2
+home|soap,14,10,2,2
+home|table,14,10,2,2
+jobs|teacher,14,10,2,2
+jobs|waiter,14,10,2,2
+home|telephone,14,10,2,2
+home|tool,14,10,2,2
+jobs|actor,14,10,2,2
+home|window,14,10,2,2
+home|card,14,10,2,2
+home|chair,14,10,2,2
+jobs|reporter,14,10,2,2
+jobs|manager,14,10,2,2
+society|energy,14,10,2,2
+jobs|secretary,14,10,2,2
+jobs|student,14,10,2,2
+society|bill,14,10,2,2
+society|death,14,10,2,2
+society|election,14,10,2,2
+society|exercise,14,10,2,2
+seasons|winter,14,10,2,2
+seasons|season,14,10,2,2
+seasons|ex monsoon,14,10,2,2
+seasons|spring,14,10,2,2
+seasons|summer,14,10,2,2
+electronics|lamp,14,10,2,2
+electronics|laptop,14,10,2,2
+home|bed,14,10,2,2
+home|bathroom,14,10,2,2
+day and time|today,14,10,2,2
+day and time|tomorrow,14,10,2,2
+day and time|thursday,14,10,2,2
+day and time|wednesday,14,10,2,2
+day and time|sunday,14,10,2,2
+jobs|lawyer,14,10,2,2
+jobs|job,14,10,2,2
+jobs|doctor,14,10,2,2
+home|door,14,10,2,2
+home|dream,14,10,2,2
+home|gift,14,10,2,2
+home|key,14,10,2,2
+day and time|tuesday,14,10,2,2
+day and time|hour,14,10,2,2
+day and time|minute,14,10,2,2
+day and time|monday,14,10,2,2
+home|kitchen,14,10,2,2
+home|letter,14,10,2,2
+home|lock,14,10,2,2
+home|page,14,10,2,2
+home|paper,14,10,2,2
+home|pen,14,10,2,2
+home|pencil,14,10,2,2
+home|photograph,14,10,2,2
+day and time|afternoon,14,10,2,2
+home|ring,14,10,2,2
+day and time|evening,14,10,2,2
+day and time|friday,14,10,2,2
+home|book,14,10,2,2
+home|bedroom,14,10,2,2
+electronics|cell phone,14,10,2,2
+home|box,14,10,2,2
+electronics|screen,14,10,2,2
+electronics|radio,14,10,2,2
+home|bag,14,10,2,2
+electronics|television,14,10,2,2
+society|god,14,10,2,2
+day and time|saturday,14,10,2,2
+day and time|morning,14,10,2,2
+day and time|month,14,10,2,2
+electronics|computer,14,10,2,2
+day and time|week,14,10,2,2
+electronics|camera,14,10,2,2
+day and time|yesterday,14,10,2,2
+society|gun,14,10,2,2
+society|race ethnicity,14,10,2,2
+society|war,14,10,2,2
+society|technology,14,10,2,2
+society|team,14,10,2,2
+society|sport,14,10,2,2
+society|sign,14,10,2,2
+society|science,14,10,2,2
+society|religion,14,10,2,2
+society|money,14,10,2,2
+society|price,14,10,2,2
+society|peace,14,10,2,2
+society|newspaper,14,10,2,2
+society|marriage,14,10,2,2
+society|medicine,14,10,2,2
+seasons|fall,15,11,2,2
+society|attack,15,11,2,2
+society|ball,15,11,2,2
+jobs|priest,15,11,2,2
+day and time|second,15,11,2,2
+home|paint,15,11,2,2
+electronics|fan,15,11,2,2
+day and time|time,15,11,2,2
+day and time|year,15,11,2,2
+day and time|night,15,11,2,2
+people|family,17,11,3,3
+people|grandfather,17,11,3,3
+people|grandmother,17,11,3,3
+clothes|suit,19,13,3,3
+clothes|skirt,19,13,3,3
+adjectives|cold,20,14,3,3
+colours|yellow,20,14,3,3
+colours|white,20,14,3,3
+people|baby,20,14,3,3
+clothes|dress,20,14,3,3
+clothes|hat,20,14,3,3
+animals|horse,20,14,3,3
+animals|mouse,20,14,3,3
+colours|black,20,14,3,3
+clothes|shirt,20,14,3,3
+colours|colour,20,14,3,3
+colours|blue,20,14,3,3
+colours|green,20,14,3,3
+colours|orange,20,14,3,3
+colours|pink,20,14,3,3
+colours|red,20,14,3,3
+people|adult,20,14,3,3
+people|man,20,14,3,3
+people|mother,20,14,3,3
+people|neighbour,20,14,3,3
+people|father,20,14,3,3
+people|friend,20,14,3,3
+people|girl,20,14,3,3
+people|husband,20,14,3,3
+people|daughter,20,14,3,3
+means of transportation|bicycle,20,14,3,3
+animals|dog,20,14,3,3
+animals|cat,20,14,3,3
+animals|animal,20,14,3,3
+animals|fish,20,14,3,3
+means of transportation|car,20,14,3,3
+means of transportation|bus,20,14,3,3
+people|child,20,14,3,3
+people|crowd,20,14,3,3
+people|king,20,14,3,3
+places|street or road,20,14,3,3
+places|restaurant,20,14,3,3
+places|office,20,14,3,3
+people|queen,20,14,3,3
+people|player,20,14,3,3
+people|woman,20,14,3,3
+people|wife,20,14,3,3
+people|son,20,14,3,3
+people|sister,20,14,3,3
+people|president,20,14,3,3
+places|city,20,14,3,3
+places|hospital,20,14,3,3
+places|library,20,14,3,3
+places|school,20,14,3,3
+people|parent,20,14,3,3
+adjectives|wide,21,15,3,3
+greetings|hello,21,15,3,3
+adjectives|bad,21,15,3,3
+greetings|thank you,21,15,3,3
+adjectives|cool,21,15,3,3
+colours|brown,21,15,3,3
+greetings|how are you,21,15,3,3
+greetings|pleased,21,15,3,3
+greetings|alright,21,15,3,3
+greetings|good night,21,15,3,3
+greetings|good evening,21,15,3,3
+greetings|good morning,21,15,3,3
+adjectives|big large,21,15,3,3
+adjectives|dry,21,15,3,3
+adjectives|loud,21,15,3,3
+adjectives|long,21,15,3,3
+adjectives|wet,21,15,3,3
+people|brother,21,15,3,3
+adjectives|tall,21,15,3,3
+animals|cow,21,15,3,3
+adjectives|young,21,15,3,3
+adjectives|warm,21,15,3,3
+means of transportation|boat,21,15,3,3
+means of transportation|plane,21,15,3,3
+means of transportation|train ticket,21,15,3,3
+means of transportation|train,21,15,3,3
+means of transportation|transportation,21,15,3,3
+means of transportation|truck,21,15,3,3
+colours|grey,21,15,3,3
+people|boy,21,15,3,3
+places|market,21,15,3,3
+places|university,21,15,3,3
+places|ground,21,15,3,3
+places|india,21,15,3,3
+places|house,21,15,3,3
+pronouns|they,21,15,3,3
+pronouns|she,21,15,3,3
+pronouns|it,21,15,3,3
+places|temple,21,15,3,3
+pronouns|i,21,15,3,3
+pronouns|he,21,15,3,3
+adjectives|new,21,15,3,3
+adjectives|quiet,21,15,3,3
+adjectives|old,21,15,3,3
+adjectives|slow,21,15,3,3
+adjectives|sick,21,15,3,3
+adjectives|good,21,15,3,3
+adjectives|fast,21,15,3,3
+adjectives|hot,21,15,3,3
+pronouns|we,21,15,3,3
+adjectives|healthy,21,15,3,3
+pronouns|you,21,15,3,3
+pronouns|you plural,21,15,3,3
+adjectives|narrow,21,15,3,3
+adjectives|happy,21,15,3,3
+greetings|good afternoon,22,16,3,3
+adjectives|short,22,16,3,3
+places|location,22,16,3,3
+places|bank,22,16,3,3
+places|park,22,16,3,3
+places|train station,22,16,3,3
+places|store or shop,22,16,3,3
+adjectives|small little,22,16,3,3
+places|court,23,17,3,3
+animals|bird,25,17,4,4

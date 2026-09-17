@@ -1,0 +1,7 @@
+type,normalized,local_raw,official_label,suggestions
+missing_official,clothing,,clothing,location | long | thin
+missing_official,pant,,pant,paint | parent | patient
+missing_official,pocket,,pocket,lock | police
+missing_official,secondnumber,,secondnumber,second | summer
+missing_official,shoes,,shoes,house | she | short
+missing_official,tshirt,,tshirt,shirt | short | skirt

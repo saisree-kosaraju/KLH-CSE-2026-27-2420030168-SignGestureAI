@@ -1,0 +1,16 @@
+class_key,source_rows,final_rows,dropped_rows,present_in_final
+adjectives,895,895,0,True
+animals,166,166,0,True
+clothes,98,98,0,True
+colours,222,222,0,True
+day_and_time,298,298,0,True
+electronics,140,140,0,True
+greetings,190,190,0,True
+home,379,379,0,True
+jobs,225,225,0,True
+means_of_transportation,186,186,0,True
+people,513,513,0,True
+places,399,399,0,True
+pronouns,168,168,0,True
+seasons,85,85,0,True
+society,324,324,0,True
