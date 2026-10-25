@@ -2,7 +2,7 @@
 
 A deep learning-based Indian Sign Language (ISL) recognition system that uses MediaPipe landmarks, engineered geometric features, temporal convolutional networks, and Head-Token Mixing Attention (HTMA) to recognize signs from video and convert the predicted sign into text and speech.
 
-## 📌 Project Overview
+## > Project Overview
 
 Communication can be challenging when sign language users interact with people who do not understand sign language. This project addresses that challenge by developing an AI-based system for recognizing isolated Indian Sign Language signs from video.
 
@@ -10,7 +10,7 @@ The system uses the **INCLUDE dataset** and a custom landmark-based deep learnin
 
 The predicted sign is displayed as text and can be spoken through browser-based text-to-speech.
 
-## 🎯 Objectives
+## > Objectives
 
 - Recognize Indian Sign Language signs from video input.
 - Extract hand, pose, and facial landmarks using MediaPipe.
@@ -20,7 +20,7 @@ The predicted sign is displayed as text and can be spoken through browser-based 
 - Classify signs across 262 categories from the INCLUDE dataset.
 - Provide predicted sign labels as text and speech through a web application.
 
-## 🏗️ System Architecture
+## > System Architecture
 
 The recognition pipeline consists of the following stages:
 
@@ -34,7 +34,7 @@ The recognition pipeline consists of the following stages:
 8. **Sign Classification:** Combine the CLS representation with attention pooling and classify the video into one of 262 sign categories.
 9. **Text and Speech Output:** Display the predicted sign label and generate spoken output using the browser Web Speech API.
 
-## 🧠 Proposed Model
+## > Proposed Model
 
 The custom recognition model is named **IncludePartAwareConvHTMAV2**.
 
@@ -50,7 +50,7 @@ Its main components are:
 
 Unlike RGB-based architectures that use image CNN backbones such as EfficientNet or MobileNet, this implementation uses custom temporal Conv1D layers on landmark and geometry sequences. MediaPipe provides the pretrained landmark extraction component.
 
-## 📚 Dataset
+## > Dataset
 
 **INCLUDE — Indian Sign Language Dataset**
 
@@ -72,7 +72,7 @@ The test set was kept separate for final evaluation.
 
 Dataset resource: [AI4Bharat INCLUDE Repository](https://github.com/AI4Bharat/INCLUDE)
 
-## 🛠️ Technologies Used
+## > Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -88,7 +88,7 @@ Dataset resource: [AI4Bharat INCLUDE Repository](https://github.com/AI4Bharat/IN
 | Web Speech API | Browser-based speech output |
 | Git and GitHub | Version control and project hosting |
 
-## 📊 Results and Performance Evaluation
+## > Results and Performance Evaluation
 
 The final model was evaluated using the best-validation exponential moving average (EMA) checkpoint from epoch 38 on the locked INCLUDE test set.
 
@@ -103,7 +103,7 @@ The final model was evaluated using the best-validation exponential moving avera
 
 These results describe the reported evaluation on the INCLUDE test set. They should not be interpreted as measured webcam accuracy or as proof of superiority over models evaluated under different datasets and protocols.
 
-## 🌐 Web Application
+## > Web Application
 
 The project includes a web application built with React and Vite, connected to a FastAPI inference backend.
 
@@ -115,7 +115,7 @@ The application supports:
 - Ranked Top-5 predictions.
 - Browser-based speech output using the Web Speech API, with an Indian-English voice preference when available.
 
-## 🚀 Future Enhancements
+## > Future Enhancements
 
 - Evaluate and improve robustness on unseen signers and different recording conditions.
 - Measure webcam performance separately from the offline test set.
@@ -124,7 +124,7 @@ The application supports:
 - Investigate sentence-level recognition and translation.
 - Conduct component ablation studies to quantify the contribution of geometry, gating, part-aware encoders, and HTMA.
 
-## 👩‍💻 Author
+## > Author
 
 **K. Sai Sree Chowdary**  
 **Roll Number:** 2420030168  
