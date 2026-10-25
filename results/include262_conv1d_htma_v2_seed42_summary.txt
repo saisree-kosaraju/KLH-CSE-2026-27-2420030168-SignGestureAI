@@ -1,0 +1,19 @@
+================================================================================================
+INCLUDE262 PART-AWARE Conv1D + HTMA V2 SUMMARY
+================================================================================================
+
+Run name: include262_conv1d_htma_v2_seed42
+Best validation Top1: 97.98%
+Best validation Macro-F1 (supported classes only): 97.66%
+Training time: 53.5 min
+
+Best checkpoint: C:\Users\Ammu\Desktop\Sign_Language_Project\models\checkpoints\include262_conv1d_htma_v2_seed42_best.pt
+Last checkpoint: C:\Users\Ammu\Desktop\Sign_Language_Project\models\checkpoints\include262_conv1d_htma_v2_seed42_last.pt
+History: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_conv1d_htma_v2_seed42_history.csv
+
+TEST SPLIT:
+LOCKED - NOT EVALUATED
+
+NEXT:
+Compare V2 against 92.80% V1.
+If V2 reaches ~94%+, train additional seeds and ensemble validation logits.

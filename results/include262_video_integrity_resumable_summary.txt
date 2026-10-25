@@ -1,0 +1,20 @@
+====================================================================================
+INCLUDE 262 RESUMABLE VIDEO INTEGRITY SUMMARY
+====================================================================================
+
+Method: sequential OpenCV decoding; no random frame seeking.
+Open timeout: 10000 ms
+Read timeout: 10000 ms
+
+Total checked: 4284 / 4284
+Valid videos: 4284
+Failed videos: 0
+Failures by split: {}
+Failure reasons: {}
+
+Full report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_video_integrity_resumable.csv
+Failed-only report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_video_integrity_failed.csv
+
+STATUS:
+ALL 4284 VIDEOS PASSED SEQUENTIAL DECODING ✅
+NEXT: 64-frame MediaPipe feature extraction with the updated architecture.

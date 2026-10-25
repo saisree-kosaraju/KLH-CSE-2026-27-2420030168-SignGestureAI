@@ -1,0 +1,17 @@
+true_class_id,true_label,pred_class_id,pred_label,count,true_class_support,within_true_class_rate
+11,bag,27,box,1,3,0.3333333333333333
+89,grandfather,75,father,1,3,0.3333333333333333
+114,key,153,paint,1,3,0.3333333333333333
+116,kitchen,14,bathroom,1,3,0.3333333333333333
+120,letter,155,paper,1,3,0.3333333333333333
+124,lock,155,paper,1,3,0.3333333333333333
+152,page,114,key,1,3,0.3333333333333333
+179,reporter,247,wednesday,1,3,0.3333333333333333
+254,winter,44,cold,1,3,0.3333333333333333
+9,baby,81,gift,1,4,0.25
+24,blue,257,yellow,1,4,0.25
+25,boat,103,horse,1,4,0.25
+62,dress,43,clothing,1,4,0.25
+201,smalllittle,152,page,1,4,0.25
+251,wide,201,smalllittle,1,4,0.25
+261,youplural,259,you,1,4,0.25

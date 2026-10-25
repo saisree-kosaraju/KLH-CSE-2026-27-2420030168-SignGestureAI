@@ -1,0 +1,22 @@
+==============================================================================
+INCLUDE 262 OFFICIAL-SPLIT V3 SUMMARY
+==============================================================================
+
+Official target videos: 4284
+Matched physical videos: 3679
+Missing official videos: 605
+Official class+filename conflict keys: 0
+Duplicate local copies discarded: 104
+
+Represented classes: 262 / 262
+Split counts: {'train': 2671, 'test': 709, 'val': 299}
+Cross-split leakage: 0
+Classes with zero training examples: 0
+
+Metadata: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_official_split_v3.csv
+Class mapping: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_class_mapping_v3.csv
+Conflicts: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_filename_class_conflicts_v3.csv
+Missing official videos: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_missing_official_v3.csv
+
+STATUS:
+MATCHING STILL HAS GAPS - REVIEW BEFORE FEATURE EXTRACTION ⚠️

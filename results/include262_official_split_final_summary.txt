@@ -1,0 +1,37 @@
+====================================================================================
+INCLUDE 262-CLASS OFFICIAL SPLIT - FINAL SUMMARY
+====================================================================================
+
+Match rule:
+  official class + raw filename stem
+  extension ignored
+  underscores/punctuation preserved
+
+This safely distinguishes:
+  MVI_005_6  vs MVI_0056
+  MVI_0057_  vs MVI_0057
+  MVI_0060_  vs MVI_0060
+
+Official target videos: 4284
+Matched videos: 4284
+Missing videos: 0
+Local physical videos: 4388
+Unique local identities: 4284
+Duplicate extracted copies removed: 104
+
+Represented classes: 262 / 262
+Split counts: {'train': 3121, 'test': 816, 'val': 347}
+Expected split counts: {'train': 3121, 'test': 816, 'val': 347}
+Cross-split leakage: 0
+Duplicate final paths: 0
+Classes with zero training examples: 0
+
+Metadata: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_official_split_final.csv
+Class mapping: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_class_mapping_final.csv
+Missing report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_missing_final.csv
+Conflict report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_match_conflicts_final.csv
+
+STATUS:
+CLEAN 262-CLASS OFFICIAL-SPLIT DATASET READY ✅
+All 4284 available official identities were matched correctly.
+NEXT: video integrity verification, then 64-frame MediaPipe extraction.

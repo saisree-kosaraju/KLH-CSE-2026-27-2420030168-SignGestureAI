@@ -1,0 +1,34 @@
+==============================================================================
+INCLUDE OFFICIAL-263 COMPARISON SUMMARY
+==============================================================================
+
+Official labels: 263
+Local raw labels: 257
+Local normalized labels: 257
+Missing official labels: 6
+Extra/unmatched local normalized labels: 0
+
+Missing official labels:
+- clothing
+- pant
+- pocket
+- secondnumber
+- shoes
+- tshirt
+
+Extra local labels:
+None
+
+Dataset filename hits for missing labels:
+- clothing: 0 shown matches
+- pant: 0 shown matches
+- pocket: 0 shown matches
+- secondnumber: 0 shown matches
+- shoes: 0 shown matches
+- tshirt: 0 shown matches
+
+CSV report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include_official_263_comparison_v1.csv
+
+NEXT:
+If exactly 6 official labels are missing, inspect whether their videos are absent
+from the downloaded dataset or only absent/mislabeled in local metadata.

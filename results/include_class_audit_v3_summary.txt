@@ -1,0 +1,25 @@
+==============================================================================
+INCLUDE CLASS AUDIT V3 SUMMARY
+==============================================================================
+
+Rows in source metadata: 4288
+Rows in final metadata: 4288
+TRUE source sign labels: 257
+Final mapped class IDs: 257
+Broad categories: 15
+Missing IDs inside final range: 0
+Minimum videos/class: 4
+Maximum videos/class: 25
+Median videos/class: 16.0
+Classes with <5 videos: 2
+Final label->class mapping check: PASS
+
+IMPORTANT:
+The earlier audit incorrectly treated 'category' as the sign-class/gloss field.
+'category' has only broad groups; 'label' / 'class_id' are the actual class fields.
+
+Class report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include_class_audit_v3.csv
+
+STATUS:
+CURRENT PREPARED DATASET IS INTERNALLY CONSISTENT AT 257 CLASSES ✅
+NEXT: identify the 6 classes absent relative to the intended 263-class INCLUDE benchmark.

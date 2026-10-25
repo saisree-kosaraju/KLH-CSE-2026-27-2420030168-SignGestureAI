@@ -1,0 +1,32 @@
+========================================================================================
+INCLUDE 262 TRAIN-ONLY NORMALIZATION V1 SUMMARY
+========================================================================================
+
+Statistics source: TRAIN SPLIT ONLY
+Train videos: 3121
+Train frames: 199744
+Validation videos used: 0
+Test videos used: 0
+
+Left valid frames: 173667
+Right valid frames: 156909
+Pose valid frames: 199742
+Face valid frames: 199665
+
+Body-scale fallback frames: 3
+Body-scale fallback rate: 0.000015
+Mean body scale: 0.137127
+Std body scale: 0.011293
+
+Normalization:
+  x/y centered on shoulder midpoint
+  coordinates scaled by shoulder distance
+  pose z centered on shoulder-midpoint z
+  hand/face z scale-normalized
+  missing hand frames excluded from mean/std statistics
+
+Output: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_landmarks64_train_normalization_v1.npz
+
+STATUS:
+TRAIN-ONLY NORMALIZATION READY ✅
+NEXT: build landmark + hand-centric geometry + motion feature sequences.

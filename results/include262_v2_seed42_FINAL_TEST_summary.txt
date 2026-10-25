@@ -1,0 +1,35 @@
+====================================================================================================
+FINAL INCLUDE262 FROZEN-MODEL TEST RESULT
+====================================================================================================
+
+Frozen checkpoint epoch: 38
+Test videos: 816
+Classes: 262
+Correct Top1: 800 / 816
+Wrong Top1: 16
+FINAL TEST TOP1 ACCURACY: 98.039216%
+FINAL TEST TOP5 ACCURACY: 99.509804%
+FINAL TEST MACRO-F1 (supported classes only): 98.093421%
+Balanced accuracy (supported classes only): 98.187023%
+Supported test classes: 262 / 262
+Evaluation time: 6.80 sec
+
+MODEL:
+Part-aware multi-scale Conv1D + gated fusion + HTMA + attention pooling + EMA
+
+CHECKPOINT:
+C:\Users\Ammu\Desktop\Sign_Language_Project\models\checkpoints\include262_conv1d_htma_v2_seed42_best.pt
+
+IMPORTANT:
+This is the final one-time frozen-model test result.
+Do not tune INCLUDE architecture/hyperparameters using this test result.
+
+Predictions: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_v2_seed42_FINAL_TEST_predictions.csv
+Per-class metrics: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_v2_seed42_FINAL_TEST_per_class_metrics.csv
+Confusion matrix: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_v2_seed42_FINAL_TEST_confusion_matrix.csv
+Top confusions: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_v2_seed42_FINAL_TEST_top_confusions.csv
+Metrics JSON: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_v2_seed42_FINAL_TEST_metrics.json
+
+STATUS:
+INCLUDE MODEL EVALUATION COMPLETE ✅
+NEXT PROJECT PHASE: rebuild WLASL from scratch.

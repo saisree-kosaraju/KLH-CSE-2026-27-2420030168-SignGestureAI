@@ -1,0 +1,23 @@
+{
+  "architecture": "TwoStream Conv1D + HTMA",
+  "num_classes": 262,
+  "num_frames": 64,
+  "landmark_dim": 534,
+  "geometry_dim": 469,
+  "availability_dim": 4,
+  "branch_dim": 128,
+  "d_model": 256,
+  "num_heads": 8,
+  "num_htma_layers": 3,
+  "dropout": 0.15,
+  "label_smoothing": 0.1,
+  "class_weighting": "inverse_sqrt_frequency",
+  "optimizer": "AdamW",
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "batch_size": 32,
+  "epochs": 60,
+  "patience": 12,
+  "seed": 42,
+  "test_used_during_training": false
+}

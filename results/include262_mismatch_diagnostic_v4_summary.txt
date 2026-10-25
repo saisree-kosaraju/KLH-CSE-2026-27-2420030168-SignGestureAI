@@ -1,0 +1,24 @@
+================================================================================
+INCLUDE 262 MISMATCH DIAGNOSTIC V4 SUMMARY
+================================================================================
+
+Official target unique videos: 4284
+Local unique videos: 4284
+Matched class+filename: 3679
+Missing official identities: 605
+Unmatched local identities: 605
+
+Missing-official diagnosis:
+  same_stem_but_extension_or_filename_format_diff: 605
+
+Classes with same video count: 262 / 262
+Classes with different count: 0 / 262
+
+Missing diagnostics: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_missing_diagnostic_v4.csv
+Unmatched-local diagnostics: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_unmatched_local_diagnostic_v4.csv
+Class-count comparison: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_class_count_comparison_v4.csv
+
+NEXT DECISION:
+If most missing filenames exist locally under another label -> fix class mapping.
+If most missing filenames do not exist locally -> local ZIP release and GitHub split metadata differ.
+Do not extract features until this is resolved.

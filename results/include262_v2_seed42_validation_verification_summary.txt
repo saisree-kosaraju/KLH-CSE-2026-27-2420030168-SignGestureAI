@@ -1,0 +1,24 @@
+================================================================================================
+INCLUDE262 V2 BEST-CHECKPOINT VALIDATION VERIFICATION
+================================================================================================
+
+Checkpoint epoch: 38
+Correct Top1: 340 / 347
+Wrong Top1: 7
+Verified Validation Top1: 97.982709%
+Verified Validation Top5: 98.559078%
+Verified Macro-F1 (supported classes only): 97.655827%
+Stored Validation Top1: 97.982709%
+Stored Macro-F1 (supported classes only): 97.655827%
+Top1 exact match: True
+F1 exact match: True
+
+TEST SPLIT:
+LOCKED - NOT LOADED - NOT EVALUATED
+
+Predictions: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_v2_seed42_validation_verified_predictions.csv
+
+STATUS:
+BEST V2 VALIDATION CHECKPOINT VERIFIED ✅
+ARCHITECTURE CAN NOW BE FROZEN.
+NEXT: one-time evaluation on the untouched 816-video test split.

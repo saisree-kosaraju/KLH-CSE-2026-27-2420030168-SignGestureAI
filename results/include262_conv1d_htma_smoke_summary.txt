@@ -1,0 +1,20 @@
+============================================================================================
+INCLUDE 262 TWO-STREAM Conv1D + HTMA BASELINE SUMMARY
+============================================================================================
+
+Run name: include262_conv1d_htma_smoke
+Device: cpu
+Best validation Top1: 0.62%
+Best validation Macro-F1: 0.00%
+Total training time: 0.3 min
+
+Best checkpoint: C:\Users\Ammu\Desktop\Sign_Language_Project\models\checkpoints\include262_conv1d_htma_smoke_best.pt
+Last checkpoint: C:\Users\Ammu\Desktop\Sign_Language_Project\models\checkpoints\include262_conv1d_htma_smoke_last.pt
+History: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_conv1d_htma_smoke_history.csv
+Config: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_conv1d_htma_smoke_config.json
+
+TEST SPLIT STATUS:
+LOCKED - NOT EVALUATED
+
+NEXT:
+Analyze validation confusions and ablations before touching the test split.

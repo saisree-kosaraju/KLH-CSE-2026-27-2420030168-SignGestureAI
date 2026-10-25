@@ -1,0 +1,27 @@
+==============================================================================
+INCLUDE 262-CLASS OFFICIAL-SPLIT V2 SUMMARY
+==============================================================================
+
+Physical videos scanned: 4388
+Official paths total (263-class metadata): 4292
+Official secondnumber paths excluded: 8
+Official target paths after exclusion: 4284
+
+Matched videos: 3456
+Missing official physical videos: 828
+Unique local videos outside official split: 828
+Duplicate extracted video identities: 104
+
+Represented classes: 241 / 262
+Split counts: {'train': 2481, 'test': 691, 'val': 284}
+Cross-split leakage: 0
+Classes with zero training examples: 0
+
+Metadata: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_official_split_v2.csv
+Class mapping: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_class_mapping_v2.csv
+Duplicate report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_duplicate_local_copies_v2.csv
+Missing official videos: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_missing_official_videos_v2.csv
+Unmatched local videos: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_unmatched_local_videos_v2.csv
+
+STATUS:
+METADATA BUILD COMPLETED, BUT GAPS REMAIN - REVIEW BEFORE FEATURE EXTRACTION ⚠️

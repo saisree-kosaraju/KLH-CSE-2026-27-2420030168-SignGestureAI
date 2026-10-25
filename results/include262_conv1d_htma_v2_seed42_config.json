@@ -1,0 +1,19 @@
+{
+  "architecture": "Part-aware multi-scale Conv1D + gated fusion + HTMA + attention pooling",
+  "num_classes": 262,
+  "frames": 64,
+  "d_model": 320,
+  "heads": 8,
+  "htma_layers": 4,
+  "ema_decay": 0.995,
+  "label_smoothing": 0.08,
+  "optimizer": "AdamW",
+  "base_lr": 0.00025,
+  "min_lr": 1e-06,
+  "warmup_epochs": 5,
+  "weight_decay": 0.0002,
+  "epochs": 70,
+  "batch_size": 32,
+  "seed": 42,
+  "test_used": false
+}

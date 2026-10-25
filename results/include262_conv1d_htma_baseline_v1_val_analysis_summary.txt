@@ -1,0 +1,39 @@
+INCLUDE262 BASELINE V1 VALIDATION ANALYSIS
+
+Checkpoint epoch: 59
+Validation Top1: 92.80%
+Validation Top5: 97.41%
+Validation Macro-F1: 85.33%
+Balanced accuracy: 86.83%
+Wrong predictions: 25 / 347
+Wrong prediction mean confidence: 47.82%
+
+20 lowest-recall classes:
+9 | baby | support=2 | recall=0.0% | F1=0.0% | confused_with=monday (2)
+11 | bag | support=1 | recall=0.0% | F1=0.0% | confused_with=telephone (1)
+34 | card | support=1 | recall=0.0% | F1=0.0% | confused_with=ring (1)
+36 | cellphone | support=1 | recall=0.0% | F1=0.0% | confused_with=night (1)
+38 | cheap | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+42 | clock | support=1 | recall=0.0% | F1=0.0% | confused_with=tool (1)
+44 | cold | support=1 | recall=0.0% | F1=0.0% | confused_with=hot (1)
+56 | deep | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+69 | expensive | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+75 | father | support=2 | recall=0.0% | F1=0.0% | confused_with=letter (1)
+76 | female | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+94 | gun | support=1 | recall=0.0% | F1=0.0% | confused_with=queen (1)
+96 | hard | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+102 | high | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+119 | lawyer | support=1 | recall=0.0% | F1=0.0% | confused_with=friend (1)
+122 | light | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+129 | male | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+134 | mean | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+147 | nice | support=0 | recall=0.0% | F1=0.0% | confused_with= (0)
+153 | paint | support=1 | recall=0.0% | F1=0.0% | confused_with=letter (1)
+
+TEST SPLIT: LOCKED / NOT USED
+Predictions: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_conv1d_htma_baseline_v1_val_predictions.csv
+Per-class metrics: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_conv1d_htma_baseline_v1_val_per_class_metrics.csv
+Confusion matrix: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_conv1d_htma_baseline_v1_val_confusion_matrix.csv
+Top confusions: C:\Users\Ammu\Desktop\Sign_Language_Project\results\include262_conv1d_htma_baseline_v1_val_top_confusions.csv
+
+NEXT: use validation errors to design V2 improvements.

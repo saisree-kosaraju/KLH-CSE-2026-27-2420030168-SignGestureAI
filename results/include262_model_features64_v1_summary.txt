@@ -1,0 +1,38 @@
+========================================================================================
+INCLUDE 262 MODEL FEATURES64 V1 SUMMARY
+========================================================================================
+
+Feature files ready: 4284 / 4284
+Verification failures: 0
+Represented classes: 262 / 262
+Split counts: {'train': 3121, 'test': 816, 'val': 347}
+
+Landmark stream shape: 64 x 534
+Geometry stream shape: 64 x 469
+Availability mask shape: 64 x 4
+
+Landmark branch:
+  normalized hands + pose + selected face
+
+Geometry/motion branch:
+  hand-centric coordinates
+  normalized bone lengths
+  joint angles
+  hand-to-body relations
+  inter-hand relations
+  velocity
+  acceleration
+
+Leakage control:
+  landmark statistics = TRAIN only
+  geometry statistics = TRAIN only
+  validation/test statistics used = 0
+
+Output folder: C:\Users\Ammu\Desktop\Sign_Language_Project\processed_data\INCLUDE262\model_features64_v1
+Manifest: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_model_features64_manifest_v1.csv
+Geometry normalization: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_geometry64_train_normalization_v1.npz
+Schema: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_model_features64_schema_v1.json
+
+STATUS:
+MODEL FEATURES READY ✅
+NEXT: train the two-stream Conv1D + HTMA INCLUDE262 baseline.

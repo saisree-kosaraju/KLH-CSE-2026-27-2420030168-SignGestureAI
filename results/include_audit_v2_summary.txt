@@ -1,0 +1,23 @@
+==============================================================================
+INCLUDE STEP 1 - AUDIT V2 SUMMARY
+==============================================================================
+
+Source metadata rows: 4288
+Final metadata rows: 4288
+Source classes: 15
+Final classes: 15
+Classes lost from source: 0
+
+Missing classes:
+None
+
+Existing final video paths: 4288
+Missing final video paths: 0
+
+Final split counts: {'train': 3060, 'test': 614, 'val': 614}
+
+Class report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include_audit_class_report_v2.csv
+Missing rows report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include_audit_missing_rows_v2.csv
+
+STATUS:
+AUDIT PASSED FOR CURRENT METADATA ✅

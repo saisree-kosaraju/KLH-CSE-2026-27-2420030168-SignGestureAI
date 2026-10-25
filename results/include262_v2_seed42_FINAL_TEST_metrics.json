@@ -1,0 +1,17 @@
+{
+  "dataset": "INCLUDE",
+  "available_classes": 262,
+  "test_videos": 816,
+  "frozen_checkpoint_epoch": 38,
+  "correct_top1": 800,
+  "wrong_top1": 16,
+  "test_top1_accuracy_percent": 98.03921568627452,
+  "test_top5_accuracy_percent": 99.50980392156863,
+  "test_macro_f1_supported_percent": 98.09342057433662,
+  "test_balanced_accuracy_supported_percent": 98.18702290076335,
+  "test_supported_classes": 262,
+  "evaluation_seconds": 6.798097133636475,
+  "checkpoint": "C:\\Users\\Ammu\\Desktop\\Sign_Language_Project\\models\\checkpoints\\include262_conv1d_htma_v2_seed42_best.pt",
+  "model": "Part-aware multi-scale Conv1D + gated fusion + HTMA + attention pooling + EMA",
+  "test_tuning_after_evaluation_allowed": false
+}

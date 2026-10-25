@@ -1,0 +1,26 @@
+======================================================================================
+INCLUDE 262 LANDMARK64 V1 VERIFICATION SUMMARY
+======================================================================================
+
+Verified OK: 4284
+Failed: 0
+Represented classes: 262 / 262
+Split counts: {'train': 3121, 'test': 816, 'val': 347}
+
+Mean left-hand frame rate: 0.869
+Mean right-hand frame rate: 0.786
+Mean both-hands proxy: 0.765
+Mean pose frame rate: 1.000
+Mean face frame rate: 1.000
+
+Videos with zero left hand: 5
+Videos with zero right hand: 0
+Videos with zero pose: 0
+Videos with zero face: 0
+
+Verification report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_landmarks64_verification_v1.csv
+Failed-only report: C:\Users\Ammu\Desktop\Sign_Language_Project\metadata\include262_landmarks64_verification_failed_v1.csv
+
+STATUS:
+ALL 4284 FEATURE FILES VERIFIED ✅
+NEXT: compute TRAIN-ONLY normalization and build motion/geometry features.

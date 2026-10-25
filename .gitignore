@@ -1,74 +1,83 @@
 
-# Datasets — do not upload
+# ==========================================
+# SIGN LANGUAGE RECOGNITION PROJECT
+# ==========================================
+
+# --- Large datasets: keep locally, never upload ---
 datasets/
 data/
 processed_data/
 webcam_data/
 
-# Python environment and cache
-venv/
-.venv/
-__pycache__/
-*.py[cod]
-
-# Secrets
-.env
-.env.*
-
-# IDE and OS files
-.vscode/
-.DS_Store
-Thumbs.db
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Virtual environment
+# --- Python virtual environments ---
 venv/
 .venv/
 env/
+ENV/
 
-# Jupyter
+# --- Python cache and compiled files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# --- Jupyter Notebook temporary files ---
 .ipynb_checkpoints/
 
-# Environment / secrets
+# --- Secrets and environment variables ---
 .env
 .env.*
+!.env.example
+*.pem
+*.key
 
-# IDE
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# --- Operating system files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE settings ---
 .vscode/
 .idea/
 
-# Datasets and videos
-data/
-dataset/
-datasets/
-webcam_data/
+# --- Build and packaging artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Machine learning experiment artifacts ---
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+checkpoints/
+runs/
+
+# --- Model checkpoints: review before uploading ---
+# Uncomment these if you decide to exclude all model weights:
+# *.pt
+# *.pth
+# *.ckpt
+# *.onnx
+# *.h5
+# *.keras
+# *.pb
+# *.tflite
+
+# --- Generated webcam recordings and captures ---
+# Uncomment if these folders contain generated recordings:
+# webcam/
+# recordings/
 *.mp4
-*.avi
-*.mov
-*.webm
-
-# Generated outputs
-results/
-logs/
-*.log
-
-# Large model files
-*.pt
-*.pth
-*.ckpt
-*.onnx
-*.h5
-*.keras
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.temp
+# Large video files
+*.mp4
